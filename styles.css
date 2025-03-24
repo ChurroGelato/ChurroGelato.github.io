@@ -1,91 +1,63 @@
-/* General reset */
+/* Global reset to remove default margins, paddings, and borders */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set the general styles for the body */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #F1F1F1;
-    color: #333;
+    background-color: #1B4D3E; /* Dark Green */
+    color: #EFA724; /* Cajá Yellow */
+    font-family: 'Lora', serif;
+    line-height: 1.6;
 }
 
-/* Container */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Navbar */
-nav {
-    background-color: #006747; /* Dark green (acerola-inspired) */
-    padding: 10px 0;
-}
-
-nav .logo {
-    color: #FFC72C; /* Cajá yellow */
+/* Style the header and make name italic */
+header {
+    padding: 20px;
     font-size: 24px;
-    text-decoration: none;
     font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    float: right;
-}
-
-nav ul li {
-    display: inline-block;
+    text-align: left;
     margin-left: 20px;
 }
 
-nav ul li a {
+header i {
+    font-style: italic;
+}
+
+/* Style the navigation bar */
+nav {
+    text-align: right;
+    margin-top: -50px;
+}
+
+nav a {
+    color: #FF4500; /* Acerola Orange */
     text-decoration: none;
-    color: white;
+    margin: 0 15px;
     font-size: 18px;
 }
 
-/* Section styling */
-.section {
-    padding: 50px 0;
+/* Set the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.home {
-    background-color: #F1F1F1;
-    text-align: center;
-}
-
-section h2 {
-    color: #006747;
-    font-size: 28px;
+/* Style the h1 tags for titles */
+h1 {
+    font-size: 36px;
     margin-bottom: 20px;
 }
 
-section p {
-    font-size: 18px;
-    color: #555;
+/* Add some hover effects for the links */
+nav a:hover {
+    color: #EFA724; /* Change link color on hover to Cajá Yellow */
 }
 
-/* Footer */
-footer {
-    background-color: #006747;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        float: none;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+/* Add some padding and margin to paragraphs for readability */
+p {
+    margin-bottom: 20px;
 }
