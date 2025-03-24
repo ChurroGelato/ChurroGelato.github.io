@@ -27,3 +27,15 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+
+---
+layout: post
+title: "My First Blog Post"
+date: 2025-03-24
+categories: personal
+---
+
+Welcome to my very first blog post! This is where I’ll share my thoughts, projects, and ideas.
+
+Stay tuned for more updates!
