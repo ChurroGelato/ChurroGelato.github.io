@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
+            <nav>
+                <a href="{{ get_url(path='blog') }}">Blog</a>
+                <a href="{{ get_url(path='research') }}">Research</a>
+                <a href="{{ get_url(path='other') }}">Other</a>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        {% block content %}{% endblock content %}
+    </main>
+
+    <footer>
+        <p>© 2025 MRV. All rights reserved.</p>
+    </footer>
+</body>
+</html>
