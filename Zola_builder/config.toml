@@ -1,5 +1,5 @@
 base_url = "https://churrogelato.github.io/"
-title = "Matheus Ribeiro Vidal"
+title = "MRV"
 description = "This is an example description"
 build_search_index = true
 generate_feeds = true
@@ -19,10 +19,10 @@ highlight_code = true
 highlight_theme = "ayu-light"
 
 [extra]
-toc = true
-use_cdn = false
-favicon = "/icon/favicon.png"
-theme = "toggle"              # light, dark, auto, toggle
+toc = false
+use_cdn = true
+favicon = "/icon_acerola/favicon.ico"
+theme = "dark"              # light, dark, auto, toggle
 fancy_code = true
 dynamic_note = true           # a note that can be toggled
 mathjax = true
@@ -37,8 +37,9 @@ menu = [
 ]
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+	{ name = "linkedin", url = "https://www.linkedin.com/in/matheusribeirovidal/", icon = "linkedin"},
+	{ name = "email", url = "mailto:matheus.vidal@tum.de", icon = "email"},
+    { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
 ]
 
 stylesheets = [
